@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+aiosmtplib = "*"
+uvicorn = "*"
+fastapi = "*"
+asyncio = "*"
+celery = "*"
+aioredis = "*"
+aiomysql = "*"
+pydantic = {extras = ["email"],version = "*"}
+python-multipart = "*"
+pyyaml = "*"
+tortoise-orm = "*"
+pyjwt = "*"
+ldap3 = "*"
+
+[requires]
+python_version = "3.7"

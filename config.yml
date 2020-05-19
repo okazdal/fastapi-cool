@@ -1,0 +1,21 @@
+# Service Bind
+HOST: "0.0.0.0"
+PORT: 80
+LOG_LEVEL: "INFO"
+
+# Mysql
+DATABASE:
+  ENGINE: "mysql"
+  HOST: "123.206.90.32"
+  PORT: 3306
+  USER: "root"
+  PASSWORD: "123456"
+  NAME: "yeah"
+
+# Redis
+REDIS:
+  HOST: "127.0.0.1"
+  PORT: 6379
+
+SECRET_KEY: "hsdkfjsgIHJJKSDFHG4385eutioudhgj1sdfjGszd>'>qz56.,/hds?k"
+ALGORITHM: "HS256"
